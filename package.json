@@ -1,0 +1,28 @@
+{
+  "name": "test-typescripts",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.14.8",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.5.2"
+  },
+  "scripts": {
+    "countMissingTags": "ts-node src/algorithms/countMissingTags.ts",
+    "findAnagrams": "ts-node src/algorithms/findAnagrams.ts",
+    "findBalancedSplit": "ts-node src/algorithms/findBalancedSplit.ts",
+    "longestBinary": "ts-node src/algorithms/longestBinary.ts",
+    "longestSentence": "ts-node src/algorithms/longestSentence.ts",
+    "maximumDivision": "ts-node src/algorithms/maximumDivision.ts",
+    "minimumFilters": "ts-node src/algorithms/minimumFilters.ts",
+    "numberToString": "ts-node src/algorithms/numberToString.ts",
+    "palindrome": "ts-node src/algorithms/palindrome.ts",
+    "precedenceWords": "ts-node src/algorithms/precedenceWords.ts",
+    "reverseString": "ts-node src/algorithms/reverseString.ts",
+    "rotateArray": "ts-node src/algorithms/rotateArray.ts",
+    "smallestMissingNumber": "ts-node src/algorithms/smallestMissingNumber.ts",
+    "sortArray": "ts-node src/algorithms/sortArray.ts",
+    "unbalancedBrackets": "ts-node src/algorithms/unbalancedBrackets.ts"
+  }
+}
